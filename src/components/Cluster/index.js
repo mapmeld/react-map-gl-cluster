@@ -28,7 +28,8 @@ export type ClusterComponentProps = {
   latitude: number,
   clusterId: number,
   pointCount: number,
-  pointCountAbbreviated: string | number
+  pointCountAbbreviated: string | number,
+  children: Array<mixed>,
 };
 
 export type ClusterMapFunction = (props: {}) => any;
