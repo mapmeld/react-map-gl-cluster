@@ -185,6 +185,7 @@ class Cluster extends PureComponent<Props, State> {
       clusterId,
       pointCount,
       pointCountAbbreviated,
+      children: this.children,
       key: `cluster-${cluster.properties.cluster_id}`
     });
   };
